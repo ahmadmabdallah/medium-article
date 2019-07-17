@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i|Montserrat:300i,400,400i,700&display=swap');
+
+body {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  color: #494949;
+  margin: 0px;
+}
+
+.banner {
+  color: white;
+  background-image: url("https://source.unsplash.com/random/1000x500");
+  background-size: cover;
+  padding: 120px 0px;
+  display: block;
+}
+
+.banner p {
+  font-style: italic;
+  font-size: 30px;
+  opacity: 0.8;
+  font-weight: lighter;
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.banner h1 {
+  font-size: 38px;
+  font-weight: bold;
+}
+
+h2 {
+  color: #A0A0A0;
+  font-weight: normal;
+}
+
+.container {
+  width: 750px;
+  margin: 50px auto;
+}
+
+.btn-green {
+  text-decoration: none;
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+  color: #636363;
+  font-weight: lighter;
+  font-size: 25px;
+  font-style: italic;
+  font-family: serif;
+}
+
+.btn-green:hover {
+  background-image: linear-gradient(to bottom, rgba(213, 233, 220, 1), rgba(213, 233, 220, 1));
+}
+
+@media(max-width: 1200px) {
+  .container {
+    width: 950px;
+  }
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media(max-width: 768px) {
+  .container {
+    width: 550px;
+  }
+}
+
+@media(max-width: 576px) {
+  .container {
+    width: 350px;
+  }
+}
